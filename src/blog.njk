@@ -1,0 +1,48 @@
+---
+title: blog
+layout: base.njk
+---
+
+<section class="py-5 bg-light-blue mb-4">
+  <div class="container">
+    <h1 class="display-5 fw-semibold text-primary">
+    Welcome to our blog
+    </h1>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="row">
+      {%- for post in collections.post | reverse -%}
+      <div class="col-md-4">
+        <div class="card shadow  mb-4 " >
+          <img
+            src="{{post.data.image}}"
+            class="card-img-top"
+            alt="Blog Image"
+            
+          />
+          <div class="card-body">
+            <h5 class="card-title text-primary fw-semibold">
+              {{post.data.title}}
+            </h5>
+            <p class="card-text text-muted">
+             {{post.data.description}}
+            </p>
+            <a
+              href="{{post.url}}"
+              class="btn btn-outline-secondary btn-sm
+            "
+              >Read More</a
+            >
+           <span class="float-end fw-semibold text-muted">By:{{post.data.author}}</span> 
+          </div>
+        </div>
+      </div>
+        {%- endfor -%}
+      
+     
+    </div>
+  </div>
+</section>

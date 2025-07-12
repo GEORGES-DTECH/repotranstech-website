@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap");
+:root {
+  --primary-color: #0079c1;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+html {
+  scrollbar-width: none;
+}
+.border-primary {
+  border-color: var(--primary-color) !important;
+}
+.btn-primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.text-primary {
+  color: var(--primary-color) !important;
+}
+
+.bg-light-blue {
+  background-color: #f7fbfd;
+  /* background-color: #e6f3fb; */
+}
+
+.feature-icon {
+  font-size: 2rem;
+  color: var(--primary-color);
+}
+
+.hero-img {
+  max-width: 100%;
+  height: auto;
+}
+.card-img-top{
+  border-top-left-radius: 1rem !important;
+  border-top-right-radius: 1rem !important;
+  object-fit: cover;
+}
+
+.floating-whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366;
+  color: white;
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.floating-whatsapp:hover {
+  background-color: #1ebe5d;
+}
+
+.floating-whatsapp img {
+  width: 28px;
+  height: 28px;
+}
+
+.nav-link.active {
+  color: var(--primary-color) !important;
+}
+.accordion-button {
+  box-shadow: none !important;
+  font-size: 18px;
+}
+p,
+li {
+  font-size: 18px;
+}
+.nav-link,
+.navbar-brand {
+  font-size: 25px;
+}
+.card,
+.list-group {
+  border-radius: 1rem;
+}
+.accordion-body {
+  font-size: 16px;
+}
