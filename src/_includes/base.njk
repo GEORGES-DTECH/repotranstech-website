@@ -5,7 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <title>{{ title | default('Loan Management System') }}</title>
-      <link rel="stylesheet" href="{{ '/styles.css' | url }}">
+    <meta name="description" content="{{ description | default('A powerful and transparent loan management system built for SACCOs and microfinance institutions.') }}">
+      <link rel="stylesheet" href="{{ '/styles.css' }}">
+
+      <!-- Open Graph (Facebook, LinkedIn) -->
+  <meta property="og:title" content="{{ title | default('Loan Management System') }}">
+  <meta property="og:description" content="{{ description | default('Digitize your lending process with efficiency and insight.') }}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ page.url | url }}">
+
 </head>
 <body>
     
@@ -21,10 +29,29 @@
     
   
 <!-- WhatsApp Floating Button -->
-<a  href="https://wa.me/254727574812?text=Greetings,i%20would%20like%20to%20know more%20about%20the%20system."  target="_blank" class="floating-whatsapp" title="Chat with us on WhatsApp">
+<a  href="https://wa.me/254727574812?text=Greetings,i%20would%20like%20to%20know more%20about%20this%20system."  target="_blank" class="floating-whatsapp" title="Chat with us on WhatsApp">
   <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/whatsapp.svg" alt="WhatsApp Icon">
 </a>
 </main>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>  
+<script>
+   const target = 20; // change to your actual number
+  const duration = 2000; // animation duration in ms
+  const stepTime = 20;
+  const steps = Math.floor(duration / stepTime);
+  let current = 0;
+
+  const clientCount = document.getElementById('clientCount');
+  const increment = target / steps;
+
+  const interval = setInterval(() => {
+    current += increment;
+    if (current >= target) {
+      current = target;
+      clearInterval(interval);
+    }
+    clientCount.textContent = Math.floor(current);
+  }, stepTime);
+</script>
 </body>
 </html>

@@ -5,13 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <title>loan management system</title>
+    <meta name="description" content="A powerful and transparent loan management system built for SACCOs and microfinance institutions.">
       <link rel="stylesheet" href="/styles.css">
+
+      <!-- Open Graph (Facebook, LinkedIn) -->
+  <meta property="og:title" content="loan management system">
+  <meta property="og:description" content="Digitize your lending process with efficiency and insight.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="/">
+
 </head>
 <body>
     
  
 <header>
-<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
     <div class="container">
       <a class="navbar-brand fw-bold text-secondary" href="/">Repotrans</a>
       <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -19,9 +27,13 @@
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
+          <hr>
           <li class="nav-item"><a class="nav-link px-4" href="#features">Features</a></li>
+          <hr>
           <li class="nav-item"><a class="nav-link px-4" href="#benefits">Benefits</a></li>
+          <hr>
           <li class="nav-item"><a class="nav-link px-4" href="#pricing">Pricing</a></li>
+          <hr>
           <li class="nav-item"><a class="nav-link px-4" href="/blog/">Blog</a></li>
         
         </ul>
@@ -29,31 +41,42 @@
     </div>
   </nav>
 </header>
+<br><br>
   <main>
 
    
-
 <section class="py-5 bg-light-blue">
   <div class="container">
-    <div class="row align-items-center ">
+    <div class="row align-items-center">
       <!-- Image Column: Order first on mobile, second on desktop -->
       <div class="col-md-6 text-center order-1 order-md-2 mb-4 mb-md-0">
-        <img src="images/hero.PNG" alt="Hero Image" class="hero-img " style="border-radius: 1rem;">
+        <img
+          src="images/hero.PNG"
+          alt="Hero Image"
+          class="hero-img"
+          style="border-radius: 1rem"
+        />
       </div>
 
       <!-- Text Column: Order second on mobile, first on desktop -->
       <div class="col-md-6 order-2 order-md-1">
-        <h1 class="display-5 fw-semibold text-primary">Effortless loan management,Maximum control</h1>
-        <p class="lead ">Streamline your savings and lending process with automation and insights.Our system serves,<br>
-          - Deposit taking and credit only microfinances <br>
-          - Table banking and chama institutions <br>
+        <h1 class="display-5 fw-semibold text-primary">
+          Effortless loan management,Maximum control
+        </h1>
+        <p class="lead">
+          Streamline your savings and lending process with automation and
+          insights.Our system serves,<br />
+          - Deposit taking and credit only microfinances <br />
+          - Table banking and chama institutions <br />
           - Saccos.
         </p>
-        <a href="https://wa.me/254727574812?text=Greetings,i%20would%20like%20to%20know more%20about%20the%20system."  
-   class="btn btn-primary btn-lg mt-3" target="_blank">
-   Contact Us
-</a>
-
+        <a
+          href="https://wa.me/254727574812?text=Greetings,i%20would%20like%20to%20know more%20about%20the%20system."
+          class="btn btn-primary btn-lg mt-3"
+          target="_blank"
+        >
+          Contact Us
+        </a>
       </div>
     </div>
   </div>
@@ -76,13 +99,15 @@
       </div>
       <div class="col-md-3 mb-4">
         <div class="feature-icon mb-2">📱</div>
-        <h4>Mobile  Integration</h4>
+        <h4>Mobile Integration</h4>
         <p>We integrate with M-Pesa, Airtel, and USSD gateways.</p>
       </div>
       <div class="col-md-3 mb-4">
         <div class="feature-icon mb-2">📤</div>
         <h4>Custom Reports</h4>
-        <p>Data is king.Know the financial health of your sacco or microfinance.</p>
+        <p>
+          Data is king.Know the financial health of your sacco or microfinance.
+        </p>
       </div>
       <div class="col-md-3 mb-4">
         <div class="feature-icon mb-2">🛠️</div>
@@ -107,10 +132,12 @@
     </div>
   </div>
 </section>
+
+
 <!-- Testimonials Carousel Section -->
 <section class="py-4 bg-white" id="testimonials">
   <div class="container">
-    <h2 class="text-center text-primary mb-4">What Our Clients Say</h2>
+    <h2 class="text-center text-primary mb-4"><span id="clientCount" class="text-success"></span>+ Clients Automated</h2>
 
     <div id="testimonialCarousel" class="carousel slide" >
       <div class="carousel-inner">
@@ -247,23 +274,31 @@
 </section>
 
 
-
 <!-- Benefits Section -->
 <section class="py-5 bg-light" id="benefits">
   <div class="container">
     <h2 class="text-center text-primary mb-4">Why Choose Us?</h2>
-   
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">✅ Real-time dashboards and loan performance insights</li>
-          <li class="list-group-item">✅ SMS alerts for clients and officers</li>
-          <li class="list-group-item">✅ Affordable for  SACCOs,Microfinances and table banking</li>
-          <li class="list-group-item">✅ Dedicated customer support team</li>
-          <li class="list-group-item">✅ Accounting module ,no need for third party providers</li>
-          <li class="list-group-item">✅ Maximum data security which includes daily backup.</li>
-          <li class="list-group-item">✅ Enjoy seemless desktop experience with an installable system.</li>
-        </ul>
-      </div>
- 
+
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">
+        ✅ Real-time dashboards and loan performance insights
+      </li>
+      <li class="list-group-item">✅ SMS alerts for clients and officers</li>
+      <li class="list-group-item">
+        ✅ Affordable for SACCOs,Microfinances and table banking
+      </li>
+      <li class="list-group-item">✅ Dedicated customer support team</li>
+      <li class="list-group-item">
+        ✅ Accounting module ,no need for third party providers
+      </li>
+      <li class="list-group-item">
+        ✅ Maximum data security which includes daily backup.
+      </li>
+      <li class="list-group-item">
+        ✅ Enjoy seemless desktop experience with an installable system.
+      </li>
+    </ul>
+  </div>
 </section>
 
 <!-- Pricing Section -->
@@ -278,34 +313,26 @@
             <h4 class="text-primary">6,000Ksh/mo</h4>
             <ul class="list-unstyled">
               <li>Up to 10 users</li>
-              <li> 0 - 500 clients</li>
+              <li>0 - 500 clients</li>
               <li>All other features included</li>
             </ul>
-          
           </div>
         </div>
       </div>
       <div class="col-md-4 mb-4">
-        <div class="card h-100 border-primary " >
+        <div class="card h-100 border-primary">
           <div class="card-body">
             <h4>Professional</h4>
             <h4 class="text-primary">7,000Ksh /mo</h4>
             <div class="text-center text-primary">
-               &#9734;
-               &#9734;
-               &#9734;
-               &#9734;
-               &#9734;
-
+              &#9734; &#9734; &#9734; &#9734; &#9734;
             </div>
 
-
             <ul class="list-unstyled">
-               <li>Up to 15 users</li>
-              <li> 500 - 2000 clients</li>
+              <li>Up to 15 users</li>
+              <li>500 - 2000 clients</li>
               <li>All other features included</li>
             </ul>
-          
           </div>
         </div>
       </div>
@@ -320,7 +347,6 @@
               <li>More server resources.</li>
               <li>Dedicated manager</li>
             </ul>
-          
           </div>
         </div>
       </div>
@@ -331,18 +357,28 @@
 <section class="py-5 bg-light" id="faq">
   <div class="container">
     <h2 class="text-center text-primary mb-4">Frequently Asked Questions</h2>
-    <div class="accordion overflow-hidden" id="faqAccordion" style="border-radius: 1rem !important;">
-
+    <div class="accordion overflow-hidden" id="faqAccordion">
       <!-- Question 1 -->
       <div class="accordion-item">
         <h2 class="accordion-header" id="faq1Heading">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="true">
+          <button
+            class="accordion-button"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#faq1"
+            aria-expanded="true"
+          >
             Is my data safe
           </button>
         </h2>
-        <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+        <div
+          id="faq1"
+          class="accordion-collapse collapse"
+          data-bs-parent="#faqAccordion"
+        >
           <div class="accordion-body">
-            We do daily backups to prevent data loss. We don't share data with third parties.
+            We do daily backups to prevent data loss. We don't share data with
+            third parties.
           </div>
         </div>
       </div>
@@ -350,27 +386,44 @@
       <!-- Question 2 -->
       <div class="accordion-item">
         <h2 class="accordion-header" id="faq2Heading">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#faq2"
+          >
             Is there a trial period
           </button>
         </h2>
-        <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+        <div
+          id="faq2"
+          class="accordion-collapse collapse"
+          data-bs-parent="#faqAccordion"
+        >
           <div class="accordion-body">
-            Yes! We provide a demo link to try out the system before committing fully.
+            Yes! We provide a demo link to try out the system before committing
+            fully.
           </div>
         </div>
       </div>
 
-     
-
       <!-- Question 4 -->
       <div class="accordion-item">
         <h2 class="accordion-header" id="faq4Heading">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#faq4"
+          >
             Can the system be customised to fit our workflows
           </button>
         </h2>
-        <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+        <div
+          id="faq4"
+          class="accordion-collapse collapse"
+          data-bs-parent="#faqAccordion"
+        >
           <div class="accordion-body">
             Yes. We always provide customisations for our clients.
           </div>
@@ -380,13 +433,23 @@
       <!-- Question 5 -->
       <div class="accordion-item">
         <h2 class="accordion-header" id="faq5Heading">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#faq5"
+          >
             Is training and support provided?
           </button>
         </h2>
-        <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+        <div
+          id="faq5"
+          class="accordion-collapse collapse"
+          data-bs-parent="#faqAccordion"
+        >
           <div class="accordion-body">
-            Yes, we offer free onboarding support and optional advanced training for staff and admins.
+            Yes, we offer free onboarding support and optional advanced training
+            for staff and admins.
           </div>
         </div>
       </div>
@@ -394,24 +457,30 @@
       <!-- Question 6 -->
       <div class="accordion-item">
         <h2 class="accordion-header" id="faq6Heading">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq6">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#faq6"
+          >
             How long is the onboarding process before we start using your system
           </button>
         </h2>
-        <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+        <div
+          id="faq6"
+          class="accordion-collapse collapse"
+          data-bs-parent="#faqAccordion"
+        >
           <div class="accordion-body">
-            We typically take not more than 5 weeks for customisations and deployments.
+            We typically take not more than 5 weeks for customisations and
+            deployments.
           </div>
         </div>
       </div>
-
     </div>
   </div>
 </section>
 
-
-
- 
 
    </main>
   
@@ -426,10 +495,29 @@
     
   
 <!-- WhatsApp Floating Button -->
-<a  href="https://wa.me/254727574812?text=Greetings,i%20would%20like%20to%20know more%20about%20the%20system."  target="_blank" class="floating-whatsapp" title="Chat with us on WhatsApp">
+<a  href="https://wa.me/254727574812?text=Greetings,i%20would%20like%20to%20know more%20about%20this%20system."  target="_blank" class="floating-whatsapp" title="Chat with us on WhatsApp">
   <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/whatsapp.svg" alt="WhatsApp Icon">
 </a>
 </main>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>  
+<script>
+   const target = 20; // change to your actual number
+  const duration = 2000; // animation duration in ms
+  const stepTime = 20;
+  const steps = Math.floor(duration / stepTime);
+  let current = 0;
+
+  const clientCount = document.getElementById('clientCount');
+  const increment = target / steps;
+
+  const interval = setInterval(() => {
+    current += increment;
+    if (current >= target) {
+      current = target;
+      clearInterval(interval);
+    }
+    clientCount.textContent = Math.floor(current);
+  }, stepTime);
+</script>
 </body>
 </html>

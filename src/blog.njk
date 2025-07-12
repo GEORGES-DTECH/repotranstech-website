@@ -28,7 +28,7 @@ layout: base.njk
               {{post.data.title}}
             </h5>
             <p class="card-text text-muted">
-             {{post.data.description}}
+             {{post.data.description |  truncate(50, true, '...')}}
             </p>
             <a
               href="{{post.url}}"
