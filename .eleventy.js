@@ -6,7 +6,7 @@ module.exports = function(eleventyConfig) {
     return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED)
    })
   return {
-     pathPrefix: "/repotranstech-website/",
+   
     dir: {
       input: "src",
       includes: "_includes",
