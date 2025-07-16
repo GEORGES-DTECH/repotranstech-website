@@ -12,8 +12,5 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "@quasibit/eleventy-plugin-sitemap": "^2.2.0"
-  }
+  "description": ""
 }
