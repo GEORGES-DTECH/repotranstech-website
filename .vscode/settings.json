@@ -4,5 +4,6 @@
   },
   "emmet.includeLanguages": {
     "njk": "html"
-  }
+  },
+  "liveServer.settings.port": 5501
 }
