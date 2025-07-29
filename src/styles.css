@@ -6,6 +6,11 @@
 body {
   font-family: "Open Sans", sans-serif;
 }
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  background: var(--primary-color);
+}
 
 html {
   scrollbar-width: none;
