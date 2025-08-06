@@ -100,11 +100,59 @@ li {
     align-items: center;
     justify-content: center;
     padding: 1rem;
+    
   }
 
   video {
     width: 100%;
     max-width: 640px;
-    height: auto;
-    border-radius: 0.5rem;
+    height: 400px;
+    
   }
+   .testimonial-track {
+      display: flex;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      gap: 1rem;
+      padding-bottom: 1rem;
+      scrollbar-width: thin;
+    }
+
+    .testimonial-track::-webkit-scrollbar {
+      height: 8px;
+      
+    }
+
+    .testimonial-track::-webkit-scrollbar-thumb {
+      background: #ccc;
+      border-radius: 10px;
+    }
+
+    .testimonial-card {
+      scroll-snap-align: start;
+      flex: 0 0 300px;
+      background: white;
+      border-radius: 1rem;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      padding: 1.5rem;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .testimonial-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .testimonial-card img {
+      width: 60px;
+      height: 60px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 1rem;
+    }
+
+    @media (max-width: 768px) {
+      .testimonial-card {
+        flex: 0 0 80%;
+      }
+    }
