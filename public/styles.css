@@ -106,7 +106,7 @@ li {
   video {
     width: 100%;
     max-width: 640px;
-    height: 400px;
+    height: auto;
     
   }
    .testimonial-track {

@@ -1,0 +1,40 @@
+---
+title: contact form
+layout: base.njk
+changeFreq: monthly
+
+---
+<br><br>
+
+<div class="container-sm" >
+<div class="contact-form">
+        <h2 class="text-center mb-4 text-primary">Contact Us</h2>
+        <form action="https://formsubmit.co/repotranscompany@gmail.com" method="POST">
+          <div class="form-floating mb-3">
+            <input type="text" class="form-control shadow-none" id="name" name="name" placeholder="Your Name" required>
+            <label for="name">Full Name</label>
+          </div>
+         
+          <div class="form-floating mb-3">
+            <input type="tel" class="form-control shadow-none" id="phone" name="phone" placeholder="Phone Number">
+            <label for="phone">Phone Number</label>
+          </div>
+           <div class="form-floating mb-3">
+            <input type="tel" class="form-control shadow-none" id="business" name="business" placeholder="Business name">
+            <label for="phone">Business name</label>
+          </div>
+           <div class="form-floating mb-3">
+            <input type="tel" class="form-control shadow-none" id="location" name="location" placeholder="Business location">
+            <label for="phone">Business location</label>
+          </div>
+           <div class="form-floating mb-3">
+            <input type="hidden" name="_next" value="https://www.repotrans.com/thanks.html">
+          </div>
+        
+          <button type="submit" class="btn btn-primary btn-lg w-100 py-2">Submit</button>
+        </form>
+
+
+
+</div>
+<br><br>
