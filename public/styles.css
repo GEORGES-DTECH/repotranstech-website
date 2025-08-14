@@ -28,8 +28,9 @@ html {
 }
 
 .bg-light-blue {
-  background-color: #f7fbfd;
-  /* background-color: #e6f3fb; */
+ 
+  background-color: var(--primary-color);
+  
 }
 
 .feature-icon {
@@ -48,30 +49,6 @@ html {
   height: 200px;
 }
 
-.floating-whatsapp {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background-color: #25d366;
-  color: white;
-  border-radius: 50%;
-  width: 55px;
-  height: 55px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-  z-index: 1000;
-}
-
-.floating-whatsapp:hover {
-  background-color: #1ebe5d;
-}
-
-.floating-whatsapp img {
-  width: 28px;
-  height: 28px;
-}
 
 .nav-link.active {
   color: var(--primary-color) !important;
@@ -84,8 +61,14 @@ p,
 li {
   font-size: 18px;
 }
-.nav-link,
+
 .navbar-brand {
+  font-size: 25px;
+  color: var(--primary-color) !important;
+}
+.nav-link{
+  color: var(--primary-color);
+  font-weight: 500;
   font-size: 25px;
 }
 .card,
