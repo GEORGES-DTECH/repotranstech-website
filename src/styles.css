@@ -29,10 +29,7 @@ html {
 }
 
 .bg-light-blue {
-  /* background-color: var(--primary-color); */
-  background: linear-gradient(rgba(0, 113, 201, 0.85), rgba(0, 113, 201, 0.85)),
-    url("https://images.unsplash.com/photo-1639322537228-f710d846310a?auto=format&fit=crop&w=1400&q=80")
-      center/cover no-repeat;
+background-color: var(--primary-color);
 }
 
 .feature-icon {
