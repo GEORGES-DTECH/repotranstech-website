@@ -29,7 +29,7 @@ html {
 }
 
 .bg-light-blue {
-background-color: var(--primary-color);
+ background: linear-gradient(135deg, #0d47a1 0%, #0079c1 100%)
 }
 
 .feature-icon {
