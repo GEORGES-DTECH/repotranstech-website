@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap");
+
+:root {
+  --white: #ffffff;
+  --off-white: #f9fafb;
+  --primary: #0079c1;
+  --text-gradient: linear-gradient(90deg, #0079c1, #00b4d8);
+  --header-card-border: #e5e7eb;
+  --hover-scrollbar:linear-gradient(180deg, #0092e0, #0066b2);
+  --scrollbar-color:#0079c1 #f5f7fa; 
+  --body-card-border: #f1f1f1;
+  --dark-color: #333333;
+}
+/* Hide Firefox scrollbar if needed */
+html {
+  scrollbar-width: thin;
+  scrollbar-color: var(--scrollbar-color); 
+}
+
+/* Chrome, Edge, Safari */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--off-white); /* match your site background */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--text-gradient);
+  border-radius: 10px;
+  border: 2px solid var(--off-white); /* soft separation */
+  transition: background 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--hover-scrollbar);
+}
+
+::-webkit-scrollbar-corner {
+  background: var(--off-white);
+}
+
+
+p {
+  font-size: 18px !important;
+}
+
+.nav-link,
+.navbar-brand {
+  font-size: 23px !important;
+  color: var(--primary) !important;
+}
+
+.hero-section {
+  padding: 140px 0 100px 0;
+  margin-top: 56px;
+}
+.text-gradient {
+  background: var(--text-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.card {
+  border-radius: 0.8rem;
+  transition: all 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Feature Cards */
+.feature-card {
+  border: none;
+  border-radius: 0.8rem;
+  transition: all 0.3s ease;
+
+  padding: 2rem;
+}
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+.feature-card i {
+  font-size: 40px;
+  color: var(--primary);
+  margin-bottom: 15px;
+}
+
+/* Why Choose Us */
+.why-choose {
+  background: var(--off-white);
+  padding: 80px 0;
+}
+.testimonials {
+  background: var(--off-white);
+}
+
+/* FAQ Accordion */
+.faq-section {
+  padding: 80px 0;
+}
+
+/* Footer */
+footer {
+  padding: 60px 0 20px 0;
+}
+footer a {
+  text-decoration: none;
+}
+
+.accordion-button {
+  font-size: 18px;
+  border-radius: 0.5rem !important;
+  box-shadow: none !important;
+  transition: background-color 0.2s ease;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: var(--off-white);
+  color: var(--primary);
+}
+
+/* Custom icons (+ / -) */
+.accordion-button::after {
+  content: "+";
+  font-size: 1.25rem;
+  font-weight: bold;
+  background-image: none !important;
+  transform: none !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+  content: "−"; /* minus sign */
+  color: var(--primary);
+}
+
+.accordion-item {
+  border: 1px solid var(--body-card-border);
+  border-radius: 0.5rem;
+}
+
+.accordion-body {
+  font-size: 0.95rem;
+  color: var(--dark-color);
+}
+
+.pricing-card {
+  border: none;
+  border-radius: 0.8rem; /* full rounded corners */
+  overflow: hidden; /* ensures inner divs follow the same rounding */
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  background-color: var(--white);
+}
+.pricing-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+.pricing-header {
+  background-color: var(--white);
+  padding: 30px;
+  border-bottom: 1px solid var(--header-card-border);
+}
+
+.pricing-body {
+  padding: 15px;
+}
+.pricing-body ul {
+  list-style: none;
+  padding: 0;
+}
+.pricing-body ul li {
+  padding: 10px 0;
+  border-bottom: 1px solid var(--body-card-border);
+}
+
+
+/* Limit the video width on large screens */
+.video-wrapper {
+  max-width: 800px;   /* adjust to 700–900px for your preference */
+  margin: 0 auto;     /* center horizontally */
+}
+
+.video-wrapper iframe {
+  border: none;
+ 
+}
+
+
+
+/* Make sure it doesn’t overflow on mobile */
+@media (max-width: 768px) {
+  .video-wrapper {
+    max-width: 100%;
+  }
+}

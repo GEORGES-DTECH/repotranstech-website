@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="/bootstrap.min.css">
+    <link rel="stylesheet" href="/style.css">
     <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -16,7 +18,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
    
     <title>blog</title>
     <meta name="description" content="A powerful and transparent loan management system built for SACCOs and microfinance institutions.">
-      <link rel="stylesheet" href="/styles.css">
+      
 
       <!-- Open Graph (Facebook, LinkedIn) -->
   <meta property="og:title" content="blog">
@@ -32,128 +34,162 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
  
+
 <header>
-<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
-    <div class="container">
-      <a class="navbar-brand fw-semibold text-secondary" href="/" >Repotrans</a>
-      <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <ul class="navbar-nav">
-          <hr>
-          <li class="nav-item"><a class="nav-link px-4" href="/demo/">Demo</a></li>
-          <hr>
-          <li class="nav-item"><a class="nav-link px-4" href="/case-studies/fricity/">Case Studies</a></li>
-          <hr>
-          <li class="nav-item"><a class="nav-link px-4" href="/pricing/">Pricing</a></li>
-          <hr>
-          <li class="nav-item"><a class="nav-link px-4" href="/blog/">Blog</a></li>
-        
-        </ul>
+   <nav class="navbar navbar-expand-lg fixed-top bg-light">
+      <div class="container">
+        <a class="navbar-brand fw-semibold" href="/">
+          
+          Repotrans
+        </a>
+        <button
+          class="navbar-toggler shadow-none bg-light"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <svg width="25" height="25">
+            <path d="M0,5 30,5" stroke="#0079c1" stroke-width="2" />
+            <path d="M0,14 30,14" stroke="#0079c1" stroke-width="2" />
+            <path d="M0,23 30,23" stroke="#0079c1" stroke-width="2" />
+          </svg>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto align-items-lg-center">
+            <hr class="text-success">
+
+            <li class="nav-item px-3">
+              <a class="nav-link fw-semibold" href="/pricing/"
+                >Features</a
+              >
+            </li>
+            <hr class="text-success">
+
+            
+            <li class="nav-item px-3">
+              <a class="nav-link fw-semibold" href="/pricing/"
+                >Pricing</a
+              >
+            </li>
+            <hr class="text-success">
+
+            <li class="nav-item px-3">
+              <a class="nav-link fw-semibold" href="/blog/">Blog</a>
+            </li>
+            <hr class="text-success">
+            <li class="nav-item px-3">
+              <a class="nav-link fw-bold" href="#request-demo">Request a demo</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
+
 </header>
-<br><br>
+
   <main>
 
    
-<section class="py-5 bg-light-blue mb-4">
-  <div class="container align-items-center text-center">
-    <h1 class="display-5 fw-semibold text-white">
-    Welcome to our blog
-    </h1>
-  </div>
-</section>
+  <!-- Hero -->
+  <section class="hero-section text-center bg-gradient text-dark py-5" >
+    <div class="container py-5">
+      <h1 class="display-5 fw-bold mb-3">The Repotrans Blog — Innovation in <span class="text-gradient"> SACCO & Microfinance Technology</span></h1>
+      
+    </div>
+  </section>
 
-<section>
+ <!-- Blog Section -->
+<section id="blog" class="py-5 bg-white">
   <div class="container">
-    <div class="row"><div class="col-md-4">
-        <div class="card shadow  mb-4 " style="height: 410px;">
-          <img
-            src="/images/microfinance.png"
-            class="card-img-top"
-            alt="Blog Image"
-            
-          />
+    <h1 class="fw-semibold text-success text-center mb-4">Latest Insights</h1>
+    <p class="text-center mb-5">
+      Stay informed with the latest trends, success stories, and best practices in microfinance and SACCO automation.
+    </p>
+
+    <div class="row g-4"><div class="col-md-6 col-lg-4">
+        <div class="card shadow-sm border-0 " style="height: 350px;">
+          <img src="/images/blog.svg" class="card-img-top" alt="Blog image" style="height: 100px;">
           <div class="card-body">
-            <h5 class="card-title text-primary fw-semibold">
-              How to Digitize a SACCO or Microfinance in 7 Simple Steps
-            </h5>
-            <p class="card-text text-muted">
-             Running your SACCO or microfinance institution wit...
-            </p>
-            <a
+            <h5 class="fw-semibold text-success">How to Digitize a SACCO or Microfinance in 7 Simple Steps</h5>
+            <p class="text-muted small mb-2">  30 Jul 2025</p>
+            <p class="mb-3">
+              Running your SACCO or microfinance institution wit....</p>
+             <a
               href="/blog/how-to-digitise-your-sacco-microfinance/"
-              class="btn btn-outline-secondary btn-sm
+              class="btn btn-outline-secondary btn-sm rounded
             "
-              >Read More</a
-            >
-           <span class="float-end fw-semibold text-muted">By:Repotrans dev</span> 
+              >Read More</a>
           </div>
         </div>
-      </div><div class="col-md-4">
-        <div class="card shadow  mb-4 " style="height: 410px;">
-          <img
-            src="/images/microfinance.png"
-            class="card-img-top"
-            alt="Blog Image"
-            
-          />
+      </div><div class="col-md-6 col-lg-4">
+        <div class="card shadow-sm border-0 " style="height: 350px;">
+          <img src="/images/blog.svg" class="card-img-top" alt="Blog image" style="height: 100px;">
           <div class="card-body">
-            <h5 class="card-title text-primary fw-semibold">
-              Why your microfinance needs a cloud based system
-            </h5>
-            <p class="card-text text-muted">
-             Microfinance institutions (MFIs) play a vital role...
-            </p>
-            <a
+            <h5 class="fw-semibold text-success">Why your microfinance needs a cloud based system</h5>
+            <p class="text-muted small mb-2">  26 Jul 2025</p>
+            <p class="mb-3">
+              Microfinance institutions (MFIs) play a vital role....</p>
+             <a
               href="/blog/why-microfinance-institutions-needs-cloud-based-systems/"
-              class="btn btn-outline-secondary btn-sm
+              class="btn btn-outline-secondary btn-sm rounded
             "
-              >Read More</a
-            >
-           <span class="float-end fw-semibold text-muted">By:George developer</span> 
+              >Read More</a>
           </div>
         </div>
-      </div><div class="col-md-4">
-        <div class="card shadow  mb-4 " style="height: 410px;">
-          <img
-            src="/images/microfinance.png"
-            class="card-img-top"
-            alt="Blog Image"
-            
-          />
+      </div><div class="col-md-6 col-lg-4">
+        <div class="card shadow-sm border-0 " style="height: 350px;">
+          <img src="/images/blog.svg" class="card-img-top" alt="Blog image" style="height: 100px;">
           <div class="card-body">
-            <h5 class="card-title text-primary fw-semibold">
-              Why SACCOs and Microfinance Institutions Need a Loan Management System
-            </h5>
-            <p class="card-text text-muted">
-             In the dynamic world of microfinance and SACCOs, e...
-            </p>
-            <a
+            <h5 class="fw-semibold text-success">Why SACCOs and Microfinance Institutions Need a Loan Management System</h5>
+            <p class="text-muted small mb-2">  12 Jul 2025</p>
+            <p class="mb-3">
+              In the dynamic world of microfinance and SACCOs, e....</p>
+             <a
               href="/blog/why-your-microfinance-needs-a-loan-management-system/"
-              class="btn btn-outline-secondary btn-sm
+              class="btn btn-outline-secondary btn-sm rounded
             "
-              >Read More</a
-            >
-           <span class="float-end fw-semibold text-muted">By:George developer</span> 
+              >Read More</a>
           </div>
         </div>
       </div></div>
-  </div>
 </section>
 
 
    </main>
   
-<!-- Footer -->
-<footer class="py-4 bg-white border-top">
-  <div class="container text-center">
-    <p class="mb-0">&copy; 2025 Repotrans tech solutions. All rights reserved.</p>
-  </div>
-</footer>
+ <!-- Footer -->
+    <footer id="contact" class="text-light bg-secondary">
+      <div class="container">
+        <div class="row text-center text-md-start mb-4">
+          <div class="col-md-4 mb-4 mb-md-0">
+            <h5 class="fw-semibold mb-3">Repotrans</h5>
+            <p>
+              All-in-one SaaS platform for SACCOs, chamas, and microfinance
+              institutions. Automate operations and boost efficiency.
+            </p>
+          </div>
+          <div class="col-md-4 mb-4 mb-md-0">
+            <h5 class="text-light fw-semibold mb-3">Quick Links</h5>
+            <ul class="list-unstyled">
+              <li><a href="#features" class="text-light">Features</a></li>
+              <li>
+                <a href="#why-choose" class="text-light">Why Choose Us</a>
+              </li>
+              <li><a href="#faq" class="text-light">FAQ</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h5 class="text-white fw-semibold mb-3">Contact</h5>
+            <p>Email: support@repotrans.com</p>
+            <p>Phone: +254 727574812</p>
+          </div>
+        </div>
+        <hr class="border-secondary" />
+        <div class="text-center text-secondary small">
+          © 2025 Repotrans. All rights reserved.
+        </div>
+      </div>
+    </footer>
  
 
     

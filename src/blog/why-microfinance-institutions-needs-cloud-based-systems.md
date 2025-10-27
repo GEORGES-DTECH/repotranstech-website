@@ -3,7 +3,8 @@ title: Why your microfinance needs a cloud based system
 author: George developer
 date: 2025-07-26
 tags: ["post","featured"]
-image: /images/microfinance.png
+image: /images/blog.svg
+
 
 description: Microfinance institutions (MFIs) play a vital role in supporting small businesses, farmers, and underserved communities. But as operations grow, so do the challenges — paper records, manual loan tracking, and delayed reports no longer cut it.
 ---

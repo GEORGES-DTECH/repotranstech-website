@@ -3,7 +3,7 @@ title: How to Digitize a SACCO or Microfinance in 7 Simple Steps
 author: Repotrans dev
 date: 2025-07-30
 tags: ["post","featured"]
-image: /images/microfinance.png
+image: /images/blog.svg
 
 description: Running your SACCO or microfinance institution with paper records and spreadsheets may have worked in the past — but not anymore. As member expectations rise and compliance grows stricter, digitizing your operations is no longer a luxury — it’s essential.Here’s a simple 7-step roadmap to move your SACCO or MFI into the digital era **without stress or high costs
 ---

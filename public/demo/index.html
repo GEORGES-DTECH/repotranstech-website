@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="/bootstrap.min.css">
+    <link rel="stylesheet" href="/style.css">
     <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -14,7 +16,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     
     <title>loan management system</title>
     <meta name="description" content="A powerful and transparent loan management system built for SACCOs and microfinance institutions.">
-      <link rel="stylesheet" href="/styles.css">
+      
 
       <!-- Open Graph (Facebook, LinkedIn) -->
   <meta property="og:title" content="loan management system">
@@ -30,54 +32,117 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
  
+
 <header>
-<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
-    <div class="container">
-      <a class="navbar-brand fw-semibold text-secondary" href="/" >Repotrans</a>
-      <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <ul class="navbar-nav">
-          <hr>
-          <li class="nav-item"><a class="nav-link px-4" href="/demo/">Demo</a></li>
-          <hr>
-          <li class="nav-item"><a class="nav-link px-4" href="/case-studies/fricity/">Case Studies</a></li>
-          <hr>
-          <li class="nav-item"><a class="nav-link px-4" href="/pricing/">Pricing</a></li>
-          <hr>
-          <li class="nav-item"><a class="nav-link px-4" href="/blog/">Blog</a></li>
-        
-        </ul>
+   <nav class="navbar navbar-expand-lg fixed-top bg-light">
+      <div class="container">
+        <a class="navbar-brand fw-semibold" href="/">
+          
+          Repotrans
+        </a>
+        <button
+          class="navbar-toggler shadow-none bg-light"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <svg width="25" height="25">
+            <path d="M0,5 30,5" stroke="#0079c1" stroke-width="2" />
+            <path d="M0,14 30,14" stroke="#0079c1" stroke-width="2" />
+            <path d="M0,23 30,23" stroke="#0079c1" stroke-width="2" />
+          </svg>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto align-items-lg-center">
+            <hr class="text-success">
+
+            <li class="nav-item px-3">
+              <a class="nav-link fw-semibold" href="/pricing/"
+                >Features</a
+              >
+            </li>
+            <hr class="text-success">
+
+            
+            <li class="nav-item px-3">
+              <a class="nav-link fw-semibold" href="/pricing/"
+                >Pricing</a
+              >
+            </li>
+            <hr class="text-success">
+
+            <li class="nav-item px-3">
+              <a class="nav-link fw-semibold" href="/blog/">Blog</a>
+            </li>
+            <hr class="text-success">
+            <li class="nav-item px-3">
+              <a class="nav-link fw-bold" href="#request-demo">Request a demo</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
+
 </header>
-<br><br>
+
   <main>
 
-   <br><br>
-<div class="video-container" >
-  <video controls>
-    <source src="/images/loan-management-system.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</div>
+   
 
+<section class="hero-section text-center text-dark py-5">
+  <div class="container py-5">
+    <div class="video-wrapper shadow-lg overflow-hidden">
+      <div class="ratio ratio-16x9">
+        <iframe 
+          src="https://www.youtube.com/embed/EX2WvEUHPmU?rel=0&modestbranding=1" 
+          title="Repotrans Demo Video" 
+          allowfullscreen>
+        </iframe>
+      </div>
+    </div>
 
-
-</div>
-<br><br>
+    <a href="/" class="btn btn-success btn-lg fw-semibold mt-4">
+      Go Back
+    </a>
+  </div>
+</section>
 
 
    </main>
   
-<!-- Footer -->
-<footer class="py-4 bg-white border-top">
-  <div class="container text-center">
-    <p class="mb-0">&copy; 2025 Repotrans tech solutions. All rights reserved.</p>
-  </div>
-</footer>
+ <!-- Footer -->
+    <footer id="contact" class="text-light bg-secondary">
+      <div class="container">
+        <div class="row text-center text-md-start mb-4">
+          <div class="col-md-4 mb-4 mb-md-0">
+            <h5 class="fw-semibold mb-3">Repotrans</h5>
+            <p>
+              All-in-one SaaS platform for SACCOs, chamas, and microfinance
+              institutions. Automate operations and boost efficiency.
+            </p>
+          </div>
+          <div class="col-md-4 mb-4 mb-md-0">
+            <h5 class="text-light fw-semibold mb-3">Quick Links</h5>
+            <ul class="list-unstyled">
+              <li><a href="#features" class="text-light">Features</a></li>
+              <li>
+                <a href="#why-choose" class="text-light">Why Choose Us</a>
+              </li>
+              <li><a href="#faq" class="text-light">FAQ</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h5 class="text-white fw-semibold mb-3">Contact</h5>
+            <p>Email: support@repotrans.com</p>
+            <p>Phone: +254 727574812</p>
+          </div>
+        </div>
+        <hr class="border-secondary" />
+        <div class="text-center text-secondary small">
+          © 2025 Repotrans. All rights reserved.
+        </div>
+      </div>
+    </footer>
  
 
     
