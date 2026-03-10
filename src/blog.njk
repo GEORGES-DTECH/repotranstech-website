@@ -17,7 +17,7 @@ robots: nosnippet
  <!-- Blog Section -->
 <section id="blog" class="py-5 main">
   <div class="container">
-    <h1 class="fw-semibold text-success text-center mb-4">Latest Insights</h1>
+    <h1 class="fw-bold text-primary text-center mb-4">Latest Insights</h1>
     <p class="text-center mb-5">
       Stay informed with the latest trends, success stories, and best practices in microfinance and SACCO automation.
     </p>
@@ -28,7 +28,7 @@ robots: nosnippet
         <div class="card shadow-sm border-0 " style="height: 350px;">
           <img src="{{post.data.image}}" class="card-img-top" alt="Blog image" style="height: 100px;">
           <div class="card-body">
-            <h5 class="fw-semibold text-success">{{post.data.title}}</h5>
+            <h5 class="fw-semibold  text-primary">{{post.data.title}}</h5>
             <p class="text-muted small mb-2">  {{ post.data.date | postdate }}</p>
             <p class="mb-3">
               {{post.data.description |  truncate(50, true, '...')}}.</p>

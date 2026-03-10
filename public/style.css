@@ -15,7 +15,7 @@
 :root {
   --white: #ffffff;
   --off-white: #f9fafb;
-  --primary: #0079c1;
+  
   --text-gradient: linear-gradient(90deg, #0079c1, #00b4d8);
   --header-card-border: #e5e7eb;
   --hover-scrollbar:linear-gradient(180deg, #0092e0, #0066b2);
@@ -63,12 +63,13 @@ p {
 .nav-link,
 .navbar-brand {
   font-size: 23px !important;
-  color: var(--primary) !important;
+  color: var(--bs-primary) !important;
 }
 
 .hero-section {
   padding: 120px 0 100px 0;
   margin-top: 15px;
+  background: #eef5ff;;
 }
 .text-gradient {
   background: var(--text-gradient);
@@ -132,11 +133,12 @@ footer a {
   border-radius: 0.5rem !important;
   box-shadow: none !important;
   transition: background-color 0.2s ease;
+    background-color: var(--bs-info);
 }
 
 .accordion-button:not(.collapsed) {
-  background-color: var(--off-white);
-  color: var(--primary);
+  background-color: var(--bs-info);
+  color: var(--bs-primary);
 }
 
 /* Custom icons (+ / -) */
@@ -146,21 +148,25 @@ footer a {
   font-weight: bold;
   background-image: none !important;
   transform: none !important;
+  
 }
 
 .accordion-button:not(.collapsed)::after {
   content: "−"; /* minus sign */
-  color: var(--primary);
+  color:  var(--bs-primary);
+  background-color: var(--bs-info);
 }
 
 .accordion-item {
   border: 1px solid var(--body-card-border);
   border-radius: 0.5rem;
+  background-color: var(--bs-info);
 }
 
 .accordion-body {
   font-size: 0.95rem;
-  color: var(--dark-color);
+  color: var(--bs-dark);
+  background-color: var(--bs-info);
 }
 
 .pricing-card {
