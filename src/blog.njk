@@ -6,43 +6,80 @@ permalink: /blog/
 robots: nosnippet
 ---
 
-  <!-- Hero -->
-  <section class="hero-section text-center bg-gradient text-dark py-5" >
-    <div class="container py-5">
-      <h1 class="display-5 fw-bold mb-3">The Repotrans Blog — Innovation in <span class="text-gradient"> SACCO & Microfinance Technology</span></h1>
-      
-    </div>
-  </section>
+<section class="hero">
+  <div class="container text-center">
+    
+    <h1 class="display-5 fw-bold mb-4">
+      Repotrans Blog
+      <span class="text-primary">
+        Loan Management & Microfinance Insights
+      </span>
+    </h1>
 
- <!-- Blog Section -->
-<section id="blog" class="py-5 main">
-  <div class="container">
-    <h1 class="fw-bold text-primary text-center mb-4">Latest Insights</h1>
-    <p class="text-center mb-5">
-      Stay informed with the latest trends, success stories, and best practices in microfinance and SACCO automation.
+    <p class="mb-4 fs-3">
+      Learn how SACCOs and microfinance institutions can automate operations,
+      manage loans better, and grow sustainably.
     </p>
 
+  </div>
+</section>
+
+
+<!-- Blog Section -->
+<section id="blog" class="py-5 bg-info">
+
+  <div class="container">
+
+    <div class="text-center mb-5">
+      <h2 class="fw-bold text-primary">Latest Articles</h2>
+      <p class="text-muted fs-2">
+        Insights for SACCOs, microfinance institutions, and lending businesses.
+      </p>
+    </div>
+
     <div class="row g-4">
-       {%- for post in collections.post | reverse -%}
-      <div class="col-md-6 col-lg-4">
-        <div class="card shadow-sm border-0 " style="height: 350px;">
-          <img src="{{post.data.image}}" class="card-img-top" alt="Blog image" style="height: 100px;">
+
+      {%- for post in collections.post | reverse -%}
+
+      <div class="col-lg-4 col-md-6">
+        <div class="card shadow-sm border-0 rounded-4 h-100 ">
+
+          <img
+            src="{{ post.data.image }}"
+            class="rounded-top-4"
+            alt="{{ post.data.title }}"
+          >
+
           <div class="card-body">
-            <h5 class="fw-semibold  text-primary">{{post.data.title}}</h5>
-            <p class="text-muted small mb-2">  {{ post.data.date | postdate }}</p>
-            <p class="mb-3">
-              {{post.data.description |  truncate(50, true, '...')}}.</p>
-             <a
-              href="{{post.url}}"
-              class="btn btn-outline-secondary btn-sm rounded
-            "
-              >Read More</a>
+
+            <h5 class="fw-semibold text-primary">
+              {{ post.data.title }}
+            </h5>
+
+            <p class="text-muted small mb-2">
+              {{ post.data.date | postdate }}
+            </p>
+
+            <p class="mb-3 fs-2 title-ellipsis">
+              {{ post.data.description }}
+            </p>
+
+            <a
+              href="{{ post.url }}"
+              class="btn btn-outline-secondary btn-sm rounded"
+            >
+              Read More
+            </a>
+
           </div>
+
         </div>
       </div>
+
       {%- endfor -%}
 
-
+    </div>
 
   </div>
+
 </section>
