@@ -1,6 +1,6 @@
 ---
 title: Why SACCOs and Microfinance Institutions Need a Loan Management System
-author: George Developer
+author: Paul admin
 date: 2025-07-12
 tags: ["post","featured"]
 image: /images/blog.webp

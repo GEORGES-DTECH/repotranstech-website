@@ -1,6 +1,6 @@
 ---
 title: How to Digitize a SACCO or Microfinance in 7 Simple Steps
-author: Repotrans dev
+author: George admin
 date: 2025-12-30
 tags: ["post","featured"]
 image: /images/blog.webp
