@@ -26,8 +26,6 @@ However, starting a lending business requires careful planning, proper systems, 
 
 This guide explains **how to start a microfinance or lending business in Kenya and build a sustainable loan portfolio.**
 
----
-
 ## Understanding the Lending Opportunity in Kenya
 
 Kenya has one of the most active informal business sectors in Africa. Small traders operate in markets, roadside stalls, small shops, transport businesses, and service-based enterprises.
@@ -50,8 +48,6 @@ Examples of common microfinance loans include:
 
 The key to success is lending to **productive borrowers** who generate income regularly.
 
----
-
 ## Choose the Right Lending Model
 
 Before launching your lending business, decide what type of lending model you want to operate.
@@ -72,8 +68,6 @@ Risks:
 
 - Higher default risk if borrower fails.
 
----
-
 ### Group Lending
 
 Borrowers form groups that guarantee each other.
@@ -86,8 +80,6 @@ Advantages:
 Risks:
 
 - Requires strong group coordination.
-
----
 
 ### Salary-Based Lending
 
@@ -102,11 +94,7 @@ Risks:
 
 - Requires employer verification.
 
----
-
 Most microfinance startups begin with **small business lending** because traders usually repay loans from daily revenue.
-
----
 
 ## Legal Requirements for Starting a Lending Business in Kenya
 
@@ -129,8 +117,6 @@ Many lenders choose a limited company structure because it:
 - Allows easier partnerships
 - Protects owners from personal liability.
 
----
-
 ### 2. Understand Licensing Requirements
 
 Not all lenders require a Central Bank of Kenya license.
@@ -141,8 +127,6 @@ Generally:
 - **Non-deposit-taking lenders** can operate as private lending companies.
 
 However, it is important to consult legal advice to ensure compliance with current financial regulations.
-
----
 
 ### 3. Establish Clear Loan Policies
 
@@ -156,8 +140,6 @@ Every lending business must define:
 - Recovery procedures  
 
 Clear policies reduce confusion and ensure fairness for borrowers.
-
----
 
 ## Setting Sustainable Interest Rates
 
@@ -183,8 +165,6 @@ To remain profitable:
 
 Without strong recovery discipline, the lending portfolio can collapse quickly.
 
----
-
 ## Managing Loan Portfolio Risk
 
 A key metric in lending is **Portfolio at Risk (PAR)**.
@@ -196,8 +176,6 @@ A healthy lending business should aim for:
 **Portfolio at Risk below 10%.**
 
 If PAR increases above this level, it means defaults are increasing and immediate corrective action is required.
-
----
 
 ## Diversify Your Borrower Base
 
@@ -217,23 +195,17 @@ Instead of lending **KES 500,000 to one borrower**, lend **KES 50,000 to ten bor
 
 If one borrower defaults, the business can still remain stable.
 
----
-
 ## Build a Strong Loan Recovery Strategy
 
 Loan recovery determines whether a lending business survives.
 
 Successful lenders combine **discipline, communication, and negotiation tactics**.
 
-Key recovery strategies include:
-
 ### Daily SMS Reminders
 
 Borrowers should receive **automatic reminders** before and after repayment dates.
 
 Reminders improve repayment discipline and reduce forgotten payments.
-
----
 
 ### Ethical Recovery Practices
 
@@ -248,15 +220,11 @@ Instead, they use proven strategies such as:
 
 Good negotiation tactics can help borrowers feel like they are receiving a fair solution while still protecting the lender's capital.
 
----
-
 ### Early Intervention
 
 The earlier you contact borrowers after a missed payment, the higher the chance of recovery.
 
 Many defaults happen because lenders wait too long before following up.
-
----
 
 ## Hire Loan Officers to Manage Borrowers
 
@@ -276,8 +244,6 @@ Responsibilities include:
 Assigning portfolios reduces workload and increases accountability.
 
 Loan officers become familiar with their borrowers and can detect repayment risks early.
-
----
 
 ## Why You Must Use a Loan Management System
 
@@ -304,8 +270,6 @@ With the right system you can:
 
 Technology allows lenders to scale operations while maintaining strong financial control.
 
----
-
 ## Using Repotrans Loan Management System
 
 To simplify lending operations, many lenders use specialized software built specifically for loan management.
@@ -329,19 +293,13 @@ You can learn more about the platform here:
 
 **https://repotrans.co.ke**
 
----
-
 ## Growth Strategies for Microfinance Startups
 
 Once the lending business becomes stable, focus on scaling your portfolio responsibly.
 
-Key growth strategies include:
-
 ### Reinvesting Profits
 
 Reinvest loan interest into new loans to grow the portfolio gradually.
-
----
 
 ### Building Borrower Trust
 
@@ -349,13 +307,9 @@ Borrowers who repay successfully should qualify for **larger follow-up loans**.
 
 Repeat borrowers usually have lower default risk.
 
----
-
 ### Leveraging Technology
 
 Automation helps manage hundreds or thousands of loans without increasing staff significantly.
-
----
 
 ### Expanding Lending Niches
 
@@ -366,8 +320,6 @@ Over time, lenders can specialize in areas such as:
 - SME working capital loans  
 
 Specialization can improve borrower targeting and reduce risk.
-
----
 
 ## Final Thoughts
 
@@ -389,3 +341,6 @@ With the right strategy and systems in place, a lending business can grow steadi
 Platforms like **Repotrans Loan Management System** make it easier for lenders to manage loans efficiently and scale operations without operational chaos.
 
 If you are planning to start or modernize a lending business, adopting the right loan management technology is one of the most important decisions you will make.
+
+---
+*Built for SACCOs, chamas, and microfinance institutions embracing technology across Kenya and Africa.*

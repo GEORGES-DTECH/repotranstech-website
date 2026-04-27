@@ -100,6 +100,9 @@ box-shadow:none;
   color: #444;
   margin-bottom: 1.3rem;
 }
+.article-content hr {
+  display: none;
+}
 
 /* Headings */
 .article-content h1,
@@ -110,8 +113,11 @@ box-shadow:none;
   font-weight: 600;
   margin-top: 2rem;
   margin-bottom: 1rem;
+  border: none !important;
 }
-
+.article-content > hr:first-child {
+  display: none;
+}
 /* Lists */
 .article-content li {
   font-size: 18px;
