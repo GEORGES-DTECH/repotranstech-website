@@ -26,7 +26,8 @@ html,body {
 }
 
 .hero{
-padding:120px 0 80px;
+padding:120px 0 50px;
+
 background:linear-gradient(135deg,#f5f8ff,#ffffff);
 }
 
