@@ -3,7 +3,7 @@ title: How to Know Your Lending Business Has Outgrown Excel and Needs a Loan Man
 author: Repotrans admin
 date: 2026-06-01
 tags: ["post","featured"]
-image: /images/blog.webp
+image: /images/excel_vs_loan_management_system.webp
 description: Discover the warning signs that your lending business has outgrown spreadsheets and why investing in a loan management system can improve efficiency, loan recovery, reporting, and business growth.
 layout: article.njk
 ---

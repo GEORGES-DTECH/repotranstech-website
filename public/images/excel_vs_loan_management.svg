@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+<rect width="1200" height="700" fill="#f8fafc"/>
+<text x="300" y="70" font-size="56" font-family="Arial" font-weight="bold" fill="#1d4ed8">EXCEL</text>
+<text x="560" y="70" font-size="48" font-family="Arial" font-weight="bold" fill="#334155">VS</text>
+<text x="700" y="70" font-size="56" font-family="Arial" font-weight="bold" fill="#0f172a">LOAN MANAGEMENT</text>
+
+<rect x="60" y="120" width="460" height="500" rx="12" fill="#ffffff" stroke="#22c55e" stroke-width="3"/>
+<rect x="680" y="120" width="460" height="500" rx="12" fill="#ffffff" stroke="#2563eb" stroke-width="3"/>
+
+<text x="90" y="170" font-size="34" font-family="Arial" font-weight="bold" fill="#16a34a">Excel Challenges</text>
+<text x="710" y="170" font-size="34" font-family="Arial" font-weight="bold" fill="#2563eb">System Advantages</text>
+
+<g font-family="Arial" font-size="24" fill="#111827">
+<text x="90" y="230">• Manual calculations</text>
+<text x="90" y="280">• Error-prone formulas</text>
+<text x="90" y="330">• Limited reporting</text>
+<text x="90" y="380">• Weak audit trail</text>
+<text x="90" y="430">• Difficult portfolio growth</text>
+<text x="90" y="480">• No automation</text>
+</g>
+
+<g font-family="Arial" font-size="24" fill="#111827">
+<text x="710" y="230">• Automated repayments</text>
+<text x="710" y="280">• Accurate calculations</text>
+<text x="710" y="330">• Real-time dashboards</text>
+<text x="710" y="380">• Secure user access</text>
+<text x="710" y="430">• Scalable operations</text>
+<text x="710" y="480">• SMS & reminders</text>
+</g>
+
+<rect x="500" y="200" width="180" height="260" rx="10" fill="#e2e8f0"/>
+<text x="525" y="250" font-size="22" font-family="Arial" font-weight="bold">Compare</text>
+<text x="520" y="300" font-size="18" font-family="Arial">Accuracy</text>
+<text x="520" y="340" font-size="18" font-family="Arial">Security</text>
+<text x="520" y="380" font-size="18" font-family="Arial">Reporting</text>
+<text x="520" y="420" font-size="18" font-family="Arial">Automation</text>
+
+<text x="250" y="670" font-size="28" font-family="Arial" font-weight="bold" fill="#16a34a">
+Move from spreadsheets to a modern loan management platform
+</text>
+</svg>
