@@ -124,7 +124,7 @@ Not all lenders require a Central Bank of Kenya license.
 Generally:
 
 - **Deposit-taking microfinance institutions** must be licensed by the Central Bank.
-- **Non-deposit-taking lenders** can operate as private lending companies.
+- **Non-deposit-taking lenders** can operate as private lending companies under the Business Laws Amendment Act, registering or licensing depending on capital thresholds.
 
 However, it is important to consult legal advice to ensure compliance with current financial regulations.
 
@@ -245,6 +245,14 @@ Assigning portfolios reduces workload and increases accountability.
 
 Loan officers become familiar with their borrowers and can detect repayment risks early.
 
+## Watch the Video Breakdown
+
+Watch this detailed guide on starting a microfinance business in Kenya without losing money:
+
+<div class="ratio ratio-16x9 my-4 rounded-4 overflow-hidden shadow-sm">
+  <iframe src="https://www.youtube.com/embed/M8mkLCT00gw" title="How To Start a Microfinance Business in Kenya (Without Losing Money)" allowfullscreen></iframe>
+</div>
+
 ## Why You Must Use a Loan Management System
 
 Many lending startups begin by tracking loans using spreadsheets.
@@ -292,6 +300,11 @@ The system streamlines daily operations and allows lending businesses to focus o
 You can learn more about the platform here:
 
 **https://repotrans.co.ke**
+
+Explore our specialized solutions:
+- [Loan Management System in Kenya](/loan-management-system/)
+- [Microfinance Software in Kenya](/microfinance-software-kenya/)
+- [M-Pesa Loan Management System](/mpesa-loan-management-system/)
 
 ## Growth Strategies for Microfinance Startups
 
