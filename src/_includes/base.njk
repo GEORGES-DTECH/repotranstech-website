@@ -35,15 +35,17 @@ src="https://www.facebook.com/tr?id=2012967552800051&ev=PageView&noscript=1"
   <meta name="robots" content="{{ robots }}">
    {% endif %}
     <title>{{ title | default('Loan Management System') }}</title>
-    <meta name="description" content="{{ description | default('A powerful and transparent loan management system built for SACCOs and microfinance institutions.') }}">
-      
+   <!-- SEO Meta Tags -->
+<meta name="description" content="{{ description | default('Repotrans is a loan management system for SACCOs, microfinance institutions and lending businesses. Manage clients, loans, repayments and financial reports in one platform.') }}">
 
-      <!-- Open Graph (Facebook, LinkedIn) -->
-  <meta property="og:title" content="{{ title | default('Loan Management System') }}">
-  <meta property="og:description" content="{{ description | default('Digitize your lending process with efficiency and insight.') }}">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="{{ page.url | url }}">
+<meta name="robots" content="index, follow">
 
+<!-- Open Graph (Facebook, LinkedIn, WhatsApp) -->
+<meta property="og:title" content="{{ title | default('Repotrans | Loan Management System') }}">
+<meta property="og:description" content="{{ description | default('Simplify lending operations with Repotrans. Manage clients, loans, repayments and reports in one powerful platform.') }}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ page.url | url }}">
+<meta property="og:site_name" content="Repotrans">
 
 </head>
 <body>
